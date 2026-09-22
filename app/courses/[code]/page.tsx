@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { AddToSchedule } from "@/components/add-to-schedule";
+import { WorkloadHistogram } from "@/components/workload-histogram";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { formatCourseDate } from "@/lib/dates";
 import { averageRating, averageWorkload, reviewsForCourse } from "@/lib/reviews";
@@ -55,6 +56,20 @@ export default async function CoursePage({ params }: CoursePageProps) {
             {rating === null ? "No average rating yet" : `Average rating ${rating} / 5`}
             {workload === null ? "" : ` · Average workload ${workload} hours / week`}
           </p>
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardHeader>
+          <CardTitle>Workload from reviews</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <WorkloadHistogram
+            bars={reviews.map((review) => ({
+              label: review.author,
+              hours: review.workloadHours,
+            }))}
+          />
         </CardContent>
       </Card>
 

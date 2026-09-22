@@ -23,8 +23,18 @@ export function ScheduleBoard({ courses }: { courses: Course[] }) {
     [codes, courses],
   );
 
+  function downloadCalendar() {
+    const query = codes.map((code) => encodeURIComponent(code)).join(",");
+    window.location.href = `/api/export?codes=${query}`;
+  }
+
   return (
     <div className="space-y-6">
+      <div>
+        <Button variant="outline" onClick={downloadCalendar} disabled={selected.length === 0}>
+          Download calendar
+        </Button>
+      </div>
       <div className="grid gap-4 md:grid-cols-5">
         {DAYS.map((day) => (
           <Card key={day}>

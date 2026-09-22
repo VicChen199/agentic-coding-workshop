@@ -14,6 +14,9 @@ export function Nav() {
           <Link href="/schedule" className="text-muted-foreground hover:text-foreground">
             Schedule
           </Link>
+          <Link href="/stats" className="text-muted-foreground hover:text-foreground">
+            Stats
+          </Link>
         </nav>
       </div>
     </header>

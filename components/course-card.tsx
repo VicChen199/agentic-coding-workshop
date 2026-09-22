@@ -29,7 +29,7 @@ export function CourseCard({ course, reviews }: CourseCardProps) {
         </CardHeader>
         <CardContent className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted-foreground">
           <span>{rating === null ? "No rating" : `${rating} / 5`}</span>
-          <span>{courseReviews.length} reviews</span>
+          <span>{courseReviews.length === 1 ? "1 review" : `${courseReviews.length} reviews`}</span>
           <span>Starts {formatCourseDate(course.startDate)}</span>
         </CardContent>
       </Card>
