@@ -1,8 +1,13 @@
 import type { Course } from "@/lib/types";
 
 export function searchCourses(courses: Course[], query: string): Course[] {
-  const pattern = new RegExp(query);
-  return courses.filter(
-    (course) => pattern.test(course.title) || pattern.test(course.code),
-  );
+  const needle = query.trim().toLowerCase();
+  if (!needle) {
+    return courses;
+  }
+
+  return courses.filter((course) => {
+    const fields = [course.code, course.title, course.instructor];
+    return fields.some((field) => field.toLowerCase().includes(needle));
+  });
 }
