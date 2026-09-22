@@ -1,0 +1,1754 @@
+{
+  "courses": [
+    {
+      "code": "CMSC 131",
+      "title": "Object-Oriented Programming I",
+      "department": "CMSC",
+      "credits": 4,
+      "instructor": "Priya Shah",
+      "description": "Java-based introduction to objects, classes, and unit tests.",
+      "meetingDays": [
+        "Mon",
+        "Wed"
+      ],
+      "startTime": "09:00",
+      "endTime": "10:15",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "CMSC 132",
+      "title": "Object-Oriented Programming II",
+      "department": "CMSC",
+      "credits": 4,
+      "instructor": "Marcus Cole",
+      "description": "Data structures, generics, and a larger team project.",
+      "meetingDays": [
+        "Tue",
+        "Thu"
+      ],
+      "startTime": "09:30",
+      "endTime": "10:45",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "CMSC 216",
+      "title": "Computer Systems",
+      "department": "CMSC",
+      "credits": 4,
+      "instructor": "Elena Voss",
+      "description": "C, pointers, memory, and how a process actually runs.",
+      "meetingDays": [
+        "Mon",
+        "Wed",
+        "Fri"
+      ],
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "CMSC 220",
+      "title": "Programming in C++",
+      "department": "CMSC",
+      "credits": 4,
+      "instructor": "Ada Lovelace",
+      "description": "Systems-oriented C++: memory, templates, and the standard library.",
+      "meetingDays": [
+        "Mon",
+        "Wed"
+      ],
+      "startTime": "10:00",
+      "endTime": "11:15",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "CMSC 330",
+      "title": "Organization of Programming Languages",
+      "department": "CMSC",
+      "credits": 4,
+      "instructor": "Jonah Park",
+      "description": "Interpreters, types, and why languages look the way they do.",
+      "meetingDays": [
+        "Tue",
+        "Thu"
+      ],
+      "startTime": "14:00",
+      "endTime": "15:15",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "CMSC 351",
+      "title": "Algorithms",
+      "department": "CMSC",
+      "credits": 4,
+      "instructor": "Renee Alvarez",
+      "description": "Asymptotics, graphs, and the proofs behind common algorithms.",
+      "meetingDays": [
+        "Mon",
+        "Wed"
+      ],
+      "startTime": "15:30",
+      "endTime": "16:45",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "MATH 140",
+      "title": "Calculus I",
+      "department": "MATH",
+      "credits": 4,
+      "instructor": "Helen Cho",
+      "description": "Limits, derivatives, and the first pass at modeling change.",
+      "meetingDays": [
+        "Mon",
+        "Wed",
+        "Fri"
+      ],
+      "startTime": "08:00",
+      "endTime": "08:50",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "MATH 141",
+      "title": "Calculus II",
+      "department": "MATH",
+      "credits": 4,
+      "instructor": "Ibrahim Nasser",
+      "description": "Integration techniques and sequences that do not always cooperate.",
+      "meetingDays": [
+        "Mon",
+        "Wed",
+        "Fri"
+      ],
+      "startTime": "09:00",
+      "endTime": "09:50",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "MATH 240",
+      "title": "Linear Algebra",
+      "department": "MATH",
+      "credits": 4,
+      "instructor": "Grace Kim",
+      "description": "Vector spaces, matrices, and the linear maps behind data and graphics.",
+      "meetingDays": [
+        "Tue",
+        "Thu"
+      ],
+      "startTime": "11:00",
+      "endTime": "12:15",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "MATH 241",
+      "title": "Calculus III",
+      "department": "MATH",
+      "credits": 4,
+      "instructor": "Sofia Mendes",
+      "description": "Multivariable calculus in R3, with an eye toward physics.",
+      "meetingDays": [
+        "Tue",
+        "Thu"
+      ],
+      "startTime": "12:30",
+      "endTime": "13:45",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "MATH 246",
+      "title": "Differential Equations",
+      "department": "MATH",
+      "credits": 4,
+      "instructor": "Owen Blake",
+      "description": "First-order systems and the models they show up in.",
+      "meetingDays": [
+        "Mon",
+        "Wed"
+      ],
+      "startTime": "14:00",
+      "endTime": "15:15",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "MATH 401",
+      "title": "Applications of Linear Algebra",
+      "department": "MATH",
+      "credits": 4,
+      "instructor": "Nadia Farouk",
+      "description": "Least squares, spectral ideas, and computation over theory.",
+      "meetingDays": [
+        "Tue",
+        "Thu"
+      ],
+      "startTime": "15:30",
+      "endTime": "16:45",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "MATH 410",
+      "title": "Advanced Calculus",
+      "department": "MATH",
+      "credits": 4,
+      "instructor": "Thomas Reeve",
+      "description": "Epsilon-delta analysis for students heading toward graduate work.",
+      "meetingDays": [
+        "Mon",
+        "Wed"
+      ],
+      "startTime": "11:30",
+      "endTime": "12:45",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "PSYC 100",
+      "title": "Intro to Psychology",
+      "department": "PSYC",
+      "credits": 3,
+      "instructor": "Maya Chen",
+      "description": "A first survey of mind, brain, development, and social behavior.",
+      "meetingDays": [
+        "Tue",
+        "Thu"
+      ],
+      "startTime": "10:00",
+      "endTime": "11:15",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "PSYC 200",
+      "title": "Statistical Methods in Psychology",
+      "department": "PSYC",
+      "credits": 3,
+      "instructor": "Luis Ortega",
+      "description": "Descriptive stats, inference, and how psychologists lie with graphs.",
+      "meetingDays": [
+        "Mon",
+        "Wed"
+      ],
+      "startTime": "12:00",
+      "endTime": "13:15",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "PSYC 221",
+      "title": "Social Psychology",
+      "department": "PSYC",
+      "credits": 3,
+      "instructor": "Amina Diop",
+      "description": "Attitudes, groups, and the situations that change what people do.",
+      "meetingDays": [
+        "Tue",
+        "Thu"
+      ],
+      "startTime": "13:00",
+      "endTime": "14:15",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "PSYC 300",
+      "title": "Research Methods",
+      "department": "PSYC",
+      "credits": 3,
+      "instructor": "Peter Lang",
+      "description": "Design, measurement, and writing a study you could actually run.",
+      "meetingDays": [
+        "Mon",
+        "Wed"
+      ],
+      "startTime": "16:00",
+      "endTime": "17:15",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "PSYC 341",
+      "title": "Cognitive Psychology",
+      "department": "PSYC",
+      "credits": 3,
+      "instructor": "Hannah Brooks",
+      "description": "Attention, memory, and the limits of what we notice.",
+      "meetingDays": [
+        "Tue",
+        "Thu"
+      ],
+      "startTime": "09:00",
+      "endTime": "10:15",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "PSYC 353",
+      "title": "Adult Psychopathology",
+      "department": "PSYC",
+      "credits": 3,
+      "instructor": "Chris Okonkwo",
+      "description": "Major disorders, diagnostic debates, and treatment overviews.",
+      "meetingDays": [
+        "Mon",
+        "Wed"
+      ],
+      "startTime": "10:30",
+      "endTime": "11:45",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "PSYC 417",
+      "title": "Data Science for Psychology",
+      "department": "PSYC",
+      "credits": 3,
+      "instructor": "Iris Patel",
+      "description": "Cleaning behavioral data and reporting it without overclaiming.",
+      "meetingDays": [
+        "Fri"
+      ],
+      "startTime": "13:00",
+      "endTime": "15:30",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "HIST 110",
+      "title": "American History to 1865",
+      "department": "HIST",
+      "credits": 3,
+      "instructor": "James Whitaker",
+      "description": "Colonies, constitution, and the road to the Civil War.",
+      "meetingDays": [
+        "Mon",
+        "Wed"
+      ],
+      "startTime": "09:00",
+      "endTime": "10:15",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "HIST 111",
+      "title": "American History since 1865",
+      "department": "HIST",
+      "credits": 3,
+      "instructor": "Lila Grant",
+      "description": "Reconstruction through the late twentieth century.",
+      "meetingDays": [
+        "Tue",
+        "Thu"
+      ],
+      "startTime": "09:00",
+      "endTime": "10:15",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "HIST 142",
+      "title": "Western Civilization",
+      "department": "HIST",
+      "credits": 3,
+      "instructor": "Marco Bellini",
+      "description": "A survey from the ancient Mediterranean to industrial Europe.",
+      "meetingDays": [
+        "Mon",
+        "Wed",
+        "Fri"
+      ],
+      "startTime": "11:00",
+      "endTime": "11:50",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "HIST 208",
+      "title": "Survey of East Asia",
+      "department": "HIST",
+      "credits": 3,
+      "instructor": "Yuki Tanaka",
+      "description": "China, Japan, and Korea from early empires to the modern state.",
+      "meetingDays": [
+        "Tue",
+        "Thu"
+      ],
+      "startTime": "14:00",
+      "endTime": "15:15",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "HIST 224",
+      "title": "Europe in the 20th Century",
+      "department": "HIST",
+      "credits": 3,
+      "instructor": "Anke Vogel",
+      "description": "War, welfare states, and the long aftermath of 1945.",
+      "meetingDays": [
+        "Mon",
+        "Wed"
+      ],
+      "startTime": "13:30",
+      "endTime": "14:45",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "HIST 306",
+      "title": "The Age of Revolutions",
+      "department": "HIST",
+      "credits": 3,
+      "instructor": "Daniel Crowe",
+      "description": "Atlantic revolutions and the political vocabulary they left behind.",
+      "meetingDays": [
+        "Tue",
+        "Thu"
+      ],
+      "startTime": "11:00",
+      "endTime": "12:15",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "HIST 355",
+      "title": "History of Science",
+      "department": "HIST",
+      "credits": 3,
+      "instructor": "Ruth Keller",
+      "description": "Instruments, institutions, and how scientific authority is made.",
+      "meetingDays": [
+        "Fri"
+      ],
+      "startTime": "10:00",
+      "endTime": "12:30",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "ENGL 101",
+      "title": "Academic Writing",
+      "department": "ENGL",
+      "credits": 3,
+      "instructor": "Claire Dupont",
+      "description": "Argument, revision, and citing sources without drowning in them.",
+      "meetingDays": [
+        "Mon",
+        "Wed"
+      ],
+      "startTime": "08:30",
+      "endTime": "09:45",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "ENGL 201",
+      "title": "Introduction to Literature",
+      "department": "ENGL",
+      "credits": 3,
+      "instructor": "Samuel Ortiz",
+      "description": "Close reading across poetry, drama, and short fiction.",
+      "meetingDays": [
+        "Tue",
+        "Thu"
+      ],
+      "startTime": "08:30",
+      "endTime": "09:45",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "ENGL 222",
+      "title": "American Literature",
+      "department": "ENGL",
+      "credits": 3,
+      "instructor": "Nina Vasquez",
+      "description": "From early national writing to the postwar novel.",
+      "meetingDays": [
+        "Mon",
+        "Wed"
+      ],
+      "startTime": "12:30",
+      "endTime": "13:45",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "ENGL 256",
+      "title": "Creative Writing",
+      "department": "ENGL",
+      "credits": 3,
+      "instructor": "Jordan Hale",
+      "description": "Workshops on fiction and nonfiction, with weekly drafts.",
+      "meetingDays": [
+        "Tue",
+        "Thu"
+      ],
+      "startTime": "15:00",
+      "endTime": "16:15",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "ENGL 301",
+      "title": "Shakespeare",
+      "department": "ENGL",
+      "credits": 3,
+      "instructor": "Margaret Flynn",
+      "description": "Five plays, the sonnets, and how performance changes a text.",
+      "meetingDays": [
+        "Mon",
+        "Wed"
+      ],
+      "startTime": "15:00",
+      "endTime": "16:15",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "ENGL 348",
+      "title": "Modernist Fiction",
+      "department": "ENGL",
+      "credits": 3,
+      "instructor": "Oliver Grant",
+      "description": "Joyce, Woolf, Faulkner, and the sentence as experiment.",
+      "meetingDays": [
+        "Tue",
+        "Thu"
+      ],
+      "startTime": "12:00",
+      "endTime": "13:15",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "ENGL 379",
+      "title": "Digital Rhetoric",
+      "department": "ENGL",
+      "credits": 3,
+      "instructor": "Priya Raman",
+      "description": "How argument works when the page is a feed.",
+      "meetingDays": [
+        "Fri"
+      ],
+      "startTime": "14:00",
+      "endTime": "16:30",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "PHYS 121",
+      "title": "Fundamentals of Physics I",
+      "department": "PHYS",
+      "credits": 4,
+      "instructor": "Alan Zhou",
+      "description": "Mechanics with calculus. Labs included.",
+      "meetingDays": [
+        "Mon",
+        "Wed",
+        "Fri"
+      ],
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "PHYS 122",
+      "title": "Fundamentals of Physics II",
+      "department": "PHYS",
+      "credits": 4,
+      "instructor": "Beatrice Novak",
+      "description": "Electricity, magnetism, and an introduction to waves.",
+      "meetingDays": [
+        "Mon",
+        "Wed",
+        "Fri"
+      ],
+      "startTime": "11:00",
+      "endTime": "11:50",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "PHYS 165",
+      "title": "Introduction to Programming",
+      "department": "PHYS",
+      "credits": 4,
+      "instructor": "Kenji Mori",
+      "description": "Python for physicists who need to plot before they prove.",
+      "meetingDays": [
+        "Tue",
+        "Thu"
+      ],
+      "startTime": "16:00",
+      "endTime": "17:15",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "PHYS 270",
+      "title": "Experimental Physics",
+      "department": "PHYS",
+      "credits": 4,
+      "instructor": "Sara Lindholm",
+      "description": "Error analysis, instruments, and writing a lab that another person can repeat.",
+      "meetingDays": [
+        "Wed"
+      ],
+      "startTime": "14:00",
+      "endTime": "17:00",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "PHYS 373",
+      "title": "Mathematical Methods",
+      "department": "PHYS",
+      "credits": 4,
+      "instructor": "Victor Ames",
+      "description": "Complex analysis and special functions as tools, not destinations.",
+      "meetingDays": [
+        "Tue",
+        "Thu"
+      ],
+      "startTime": "10:30",
+      "endTime": "11:45",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "PHYS 401",
+      "title": "Quantum Physics I",
+      "department": "PHYS",
+      "credits": 4,
+      "instructor": "Leila Haddad",
+      "description": "The Schrödinger equation and the first exactly solvable systems.",
+      "meetingDays": [
+        "Mon",
+        "Wed"
+      ],
+      "startTime": "16:30",
+      "endTime": "17:45",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "CMSC 250",
+      "title": "Discrete Structures",
+      "department": "CMSC",
+      "credits": 4,
+      "instructor": "Donald Knuth",
+      "description": "Proofs, counting, graphs, and the discrete math CS actually uses.",
+      "meetingDays": [
+        "Tue",
+        "Thu"
+      ],
+      "startTime": "10:00",
+      "endTime": "11:15",
+      "startDate": "2026-01-20"
+    },
+    {
+      "code": "PHYS 404",
+      "title": "Introduction to Statistical Mechanics",
+      "department": "PHYS",
+      "credits": 4,
+      "instructor": "Eva Moreau",
+      "description": "Ensembles, entropy, and why temperature is a Lagrange multiplier.",
+      "meetingDays": [
+        "Tue",
+        "Thu"
+      ],
+      "startTime": "13:30",
+      "endTime": "14:45",
+      "startDate": "2026-01-20"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r1",
+      "courseCode": "CMSC 131",
+      "rating": 1,
+      "workloadHours": 4,
+      "comment": "Clear lectures, heavy homework.",
+      "author": "Anonymous",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r2",
+      "courseCode": "CMSC 131",
+      "rating": 3,
+      "workloadHours": 5,
+      "comment": "Office hours are where the class actually clicks.",
+      "author": "Junior CS",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r3",
+      "courseCode": "CMSC 132",
+      "rating": 2,
+      "workloadHours": 5,
+      "comment": "Office hours are where the class actually clicks.",
+      "author": "Junior CS",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r4",
+      "courseCode": "CMSC 132",
+      "rating": 4,
+      "workloadHours": 6,
+      "comment": "Interesting material, uneven pacing.",
+      "author": "First-year",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r5",
+      "courseCode": "CMSC 132",
+      "rating": 1,
+      "workloadHours": 7,
+      "comment": "Projects take longer than the syllabus admits.",
+      "author": "Transfer",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r6",
+      "courseCode": "CMSC 216",
+      "rating": 3,
+      "workloadHours": 6,
+      "comment": "Interesting material, uneven pacing.",
+      "author": "First-year",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r7",
+      "courseCode": "CMSC 216",
+      "rating": 5,
+      "workloadHours": 7,
+      "comment": "Projects take longer than the syllabus admits.",
+      "author": "Transfer",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r8",
+      "courseCode": "CMSC 216",
+      "rating": 2,
+      "workloadHours": 8,
+      "comment": "Fair exams if you do the weekly work.",
+      "author": "Senior",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r9",
+      "courseCode": "CMSC 216",
+      "rating": 4,
+      "workloadHours": 9,
+      "comment": "Discussion section is stronger than lecture.",
+      "author": "TA-adjacent",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r10",
+      "courseCode": "CMSC 220",
+      "rating": 4,
+      "workloadHours": 7,
+      "comment": "Projects take longer than the syllabus admits.",
+      "author": "Transfer",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r11",
+      "courseCode": "CMSC 220",
+      "rating": 1,
+      "workloadHours": 8,
+      "comment": "Fair exams if you do the weekly work.",
+      "author": "Senior",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r12",
+      "courseCode": "CMSC 330",
+      "rating": 5,
+      "workloadHours": 8,
+      "comment": "Fair exams if you do the weekly work.",
+      "author": "Senior",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r13",
+      "courseCode": "CMSC 330",
+      "rating": 2,
+      "workloadHours": 9,
+      "comment": "Discussion section is stronger than lecture.",
+      "author": "TA-adjacent",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r14",
+      "courseCode": "CMSC 330",
+      "rating": 4,
+      "workloadHours": 10,
+      "comment": "I would take this instructor again.",
+      "author": "Anonymous",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r15",
+      "courseCode": "CMSC 351",
+      "rating": 1,
+      "workloadHours": 9,
+      "comment": "Discussion section is stronger than lecture.",
+      "author": "TA-adjacent",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r16",
+      "courseCode": "CMSC 351",
+      "rating": 3,
+      "workloadHours": 10,
+      "comment": "I would take this instructor again.",
+      "author": "Anonymous",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r17",
+      "courseCode": "CMSC 351",
+      "rating": 5,
+      "workloadHours": 11,
+      "comment": "Useful, but the textbook is optional in name only.",
+      "author": "Junior CS",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r18",
+      "courseCode": "CMSC 351",
+      "rating": 2,
+      "workloadHours": 4,
+      "comment": "Clear lectures, heavy homework.",
+      "author": "First-year",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r19",
+      "courseCode": "MATH 140",
+      "rating": 2,
+      "workloadHours": 10,
+      "comment": "I would take this instructor again.",
+      "author": "Anonymous",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r20",
+      "courseCode": "MATH 140",
+      "rating": 4,
+      "workloadHours": 11,
+      "comment": "Useful, but the textbook is optional in name only.",
+      "author": "Junior CS",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r21",
+      "courseCode": "MATH 141",
+      "rating": 3,
+      "workloadHours": 11,
+      "comment": "Useful, but the textbook is optional in name only.",
+      "author": "Junior CS",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r22",
+      "courseCode": "MATH 141",
+      "rating": 5,
+      "workloadHours": 4,
+      "comment": "Clear lectures, heavy homework.",
+      "author": "First-year",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r23",
+      "courseCode": "MATH 141",
+      "rating": 2,
+      "workloadHours": 5,
+      "comment": "Office hours are where the class actually clicks.",
+      "author": "Transfer",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r24",
+      "courseCode": "MATH 240",
+      "rating": 4,
+      "workloadHours": 4,
+      "comment": "Clear lectures, heavy homework.",
+      "author": "First-year",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r25",
+      "courseCode": "MATH 240",
+      "rating": 1,
+      "workloadHours": 5,
+      "comment": "Office hours are where the class actually clicks.",
+      "author": "Transfer",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r26",
+      "courseCode": "MATH 240",
+      "rating": 3,
+      "workloadHours": 6,
+      "comment": "Interesting material, uneven pacing.",
+      "author": "Senior",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r27",
+      "courseCode": "MATH 240",
+      "rating": 5,
+      "workloadHours": 7,
+      "comment": "Projects take longer than the syllabus admits.",
+      "author": "TA-adjacent",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r28",
+      "courseCode": "MATH 241",
+      "rating": 5,
+      "workloadHours": 5,
+      "comment": "Office hours are where the class actually clicks.",
+      "author": "Transfer",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r29",
+      "courseCode": "MATH 241",
+      "rating": 2,
+      "workloadHours": 6,
+      "comment": "Interesting material, uneven pacing.",
+      "author": "Senior",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r30",
+      "courseCode": "MATH 246",
+      "rating": 1,
+      "workloadHours": 6,
+      "comment": "Interesting material, uneven pacing.",
+      "author": "Senior",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r31",
+      "courseCode": "MATH 246",
+      "rating": 3,
+      "workloadHours": 7,
+      "comment": "Projects take longer than the syllabus admits.",
+      "author": "TA-adjacent",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r32",
+      "courseCode": "MATH 246",
+      "rating": 5,
+      "workloadHours": 8,
+      "comment": "Fair exams if you do the weekly work.",
+      "author": "Anonymous",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r33",
+      "courseCode": "MATH 401",
+      "rating": 2,
+      "workloadHours": 7,
+      "comment": "Projects take longer than the syllabus admits.",
+      "author": "TA-adjacent",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r34",
+      "courseCode": "MATH 401",
+      "rating": 4,
+      "workloadHours": 8,
+      "comment": "Fair exams if you do the weekly work.",
+      "author": "Anonymous",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r35",
+      "courseCode": "MATH 401",
+      "rating": 1,
+      "workloadHours": 9,
+      "comment": "Discussion section is stronger than lecture.",
+      "author": "Junior CS",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r36",
+      "courseCode": "MATH 401",
+      "rating": 3,
+      "workloadHours": 10,
+      "comment": "I would take this instructor again.",
+      "author": "First-year",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r37",
+      "courseCode": "MATH 410",
+      "rating": 3,
+      "workloadHours": 8,
+      "comment": "Fair exams if you do the weekly work.",
+      "author": "Anonymous",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r38",
+      "courseCode": "MATH 410",
+      "rating": 5,
+      "workloadHours": 9,
+      "comment": "Discussion section is stronger than lecture.",
+      "author": "Junior CS",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r39",
+      "courseCode": "PSYC 100",
+      "rating": 4,
+      "workloadHours": 9,
+      "comment": "Discussion section is stronger than lecture.",
+      "author": "Junior CS",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r40",
+      "courseCode": "PSYC 200",
+      "rating": 5,
+      "workloadHours": 10,
+      "comment": "I would take this instructor again.",
+      "author": "First-year",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r41",
+      "courseCode": "PSYC 200",
+      "rating": 2,
+      "workloadHours": 11,
+      "comment": "Useful, but the textbook is optional in name only.",
+      "author": "Transfer",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r42",
+      "courseCode": "PSYC 200",
+      "rating": 4,
+      "workloadHours": 4,
+      "comment": "Clear lectures, heavy homework.",
+      "author": "Senior",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r43",
+      "courseCode": "PSYC 200",
+      "rating": 1,
+      "workloadHours": 5,
+      "comment": "Office hours are where the class actually clicks.",
+      "author": "TA-adjacent",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r44",
+      "courseCode": "PSYC 221",
+      "rating": 1,
+      "workloadHours": 11,
+      "comment": "Useful, but the textbook is optional in name only.",
+      "author": "Transfer",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r45",
+      "courseCode": "PSYC 221",
+      "rating": 3,
+      "workloadHours": 4,
+      "comment": "Clear lectures, heavy homework.",
+      "author": "Senior",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r46",
+      "courseCode": "PSYC 300",
+      "rating": 2,
+      "workloadHours": 4,
+      "comment": "Clear lectures, heavy homework.",
+      "author": "Senior",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r47",
+      "courseCode": "PSYC 300",
+      "rating": 4,
+      "workloadHours": 5,
+      "comment": "Office hours are where the class actually clicks.",
+      "author": "TA-adjacent",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r48",
+      "courseCode": "PSYC 300",
+      "rating": 1,
+      "workloadHours": 6,
+      "comment": "Interesting material, uneven pacing.",
+      "author": "Anonymous",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r49",
+      "courseCode": "PSYC 341",
+      "rating": 3,
+      "workloadHours": 5,
+      "comment": "Office hours are where the class actually clicks.",
+      "author": "TA-adjacent",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r50",
+      "courseCode": "PSYC 341",
+      "rating": 5,
+      "workloadHours": 6,
+      "comment": "Interesting material, uneven pacing.",
+      "author": "Anonymous",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r51",
+      "courseCode": "PSYC 341",
+      "rating": 2,
+      "workloadHours": 7,
+      "comment": "Projects take longer than the syllabus admits.",
+      "author": "Junior CS",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r52",
+      "courseCode": "PSYC 341",
+      "rating": 4,
+      "workloadHours": 8,
+      "comment": "Fair exams if you do the weekly work.",
+      "author": "First-year",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r53",
+      "courseCode": "PSYC 353",
+      "rating": 4,
+      "workloadHours": 6,
+      "comment": "Interesting material, uneven pacing.",
+      "author": "Anonymous",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r54",
+      "courseCode": "PSYC 353",
+      "rating": 1,
+      "workloadHours": 7,
+      "comment": "Projects take longer than the syllabus admits.",
+      "author": "Junior CS",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r55",
+      "courseCode": "PSYC 417",
+      "rating": 5,
+      "workloadHours": 7,
+      "comment": "Projects take longer than the syllabus admits.",
+      "author": "Junior CS",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r56",
+      "courseCode": "PSYC 417",
+      "rating": 2,
+      "workloadHours": 8,
+      "comment": "Fair exams if you do the weekly work.",
+      "author": "First-year",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r57",
+      "courseCode": "PSYC 417",
+      "rating": 4,
+      "workloadHours": 9,
+      "comment": "Discussion section is stronger than lecture.",
+      "author": "Transfer",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r58",
+      "courseCode": "HIST 110",
+      "rating": 1,
+      "workloadHours": 8,
+      "comment": "Fair exams if you do the weekly work.",
+      "author": "First-year",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r59",
+      "courseCode": "HIST 110",
+      "rating": 3,
+      "workloadHours": 9,
+      "comment": "Discussion section is stronger than lecture.",
+      "author": "Transfer",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r60",
+      "courseCode": "HIST 110",
+      "rating": 5,
+      "workloadHours": 10,
+      "comment": "I would take this instructor again.",
+      "author": "Senior",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r61",
+      "courseCode": "HIST 110",
+      "rating": 2,
+      "workloadHours": 11,
+      "comment": "Useful, but the textbook is optional in name only.",
+      "author": "TA-adjacent",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r62",
+      "courseCode": "HIST 111",
+      "rating": 2,
+      "workloadHours": 9,
+      "comment": "Discussion section is stronger than lecture.",
+      "author": "Transfer",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r63",
+      "courseCode": "HIST 111",
+      "rating": 4,
+      "workloadHours": 10,
+      "comment": "I would take this instructor again.",
+      "author": "Senior",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r64",
+      "courseCode": "HIST 142",
+      "rating": 3,
+      "workloadHours": 10,
+      "comment": "I would take this instructor again.",
+      "author": "Senior",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r65",
+      "courseCode": "HIST 142",
+      "rating": 5,
+      "workloadHours": 11,
+      "comment": "Useful, but the textbook is optional in name only.",
+      "author": "TA-adjacent",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r66",
+      "courseCode": "HIST 142",
+      "rating": 2,
+      "workloadHours": 4,
+      "comment": "Clear lectures, heavy homework.",
+      "author": "Anonymous",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r67",
+      "courseCode": "HIST 208",
+      "rating": 4,
+      "workloadHours": 11,
+      "comment": "Useful, but the textbook is optional in name only.",
+      "author": "TA-adjacent",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r68",
+      "courseCode": "HIST 208",
+      "rating": 1,
+      "workloadHours": 4,
+      "comment": "Clear lectures, heavy homework.",
+      "author": "Anonymous",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r69",
+      "courseCode": "HIST 208",
+      "rating": 3,
+      "workloadHours": 5,
+      "comment": "Office hours are where the class actually clicks.",
+      "author": "Junior CS",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r70",
+      "courseCode": "HIST 208",
+      "rating": 5,
+      "workloadHours": 6,
+      "comment": "Interesting material, uneven pacing.",
+      "author": "First-year",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r71",
+      "courseCode": "HIST 224",
+      "rating": 5,
+      "workloadHours": 4,
+      "comment": "Clear lectures, heavy homework.",
+      "author": "Anonymous",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r72",
+      "courseCode": "HIST 224",
+      "rating": 2,
+      "workloadHours": 5,
+      "comment": "Office hours are where the class actually clicks.",
+      "author": "Junior CS",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r73",
+      "courseCode": "HIST 306",
+      "rating": 1,
+      "workloadHours": 5,
+      "comment": "Office hours are where the class actually clicks.",
+      "author": "Junior CS",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r74",
+      "courseCode": "HIST 306",
+      "rating": 3,
+      "workloadHours": 6,
+      "comment": "Interesting material, uneven pacing.",
+      "author": "First-year",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r75",
+      "courseCode": "HIST 306",
+      "rating": 5,
+      "workloadHours": 7,
+      "comment": "Projects take longer than the syllabus admits.",
+      "author": "Transfer",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r76",
+      "courseCode": "HIST 355",
+      "rating": 2,
+      "workloadHours": 6,
+      "comment": "Interesting material, uneven pacing.",
+      "author": "First-year",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r77",
+      "courseCode": "HIST 355",
+      "rating": 4,
+      "workloadHours": 7,
+      "comment": "Projects take longer than the syllabus admits.",
+      "author": "Transfer",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r78",
+      "courseCode": "HIST 355",
+      "rating": 1,
+      "workloadHours": 8,
+      "comment": "Fair exams if you do the weekly work.",
+      "author": "Senior",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r79",
+      "courseCode": "HIST 355",
+      "rating": 3,
+      "workloadHours": 9,
+      "comment": "Discussion section is stronger than lecture.",
+      "author": "TA-adjacent",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r80",
+      "courseCode": "ENGL 101",
+      "rating": 3,
+      "workloadHours": 7,
+      "comment": "Projects take longer than the syllabus admits.",
+      "author": "Transfer",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r81",
+      "courseCode": "ENGL 101",
+      "rating": 5,
+      "workloadHours": 8,
+      "comment": "Fair exams if you do the weekly work.",
+      "author": "Senior",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r82",
+      "courseCode": "ENGL 201",
+      "rating": 4,
+      "workloadHours": 8,
+      "comment": "Fair exams if you do the weekly work.",
+      "author": "Senior",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r83",
+      "courseCode": "ENGL 201",
+      "rating": 1,
+      "workloadHours": 9,
+      "comment": "Discussion section is stronger than lecture.",
+      "author": "TA-adjacent",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r84",
+      "courseCode": "ENGL 201",
+      "rating": 3,
+      "workloadHours": 10,
+      "comment": "I would take this instructor again.",
+      "author": "Anonymous",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r85",
+      "courseCode": "ENGL 222",
+      "rating": 5,
+      "workloadHours": 9,
+      "comment": "Discussion section is stronger than lecture.",
+      "author": "TA-adjacent",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r86",
+      "courseCode": "ENGL 222",
+      "rating": 2,
+      "workloadHours": 10,
+      "comment": "I would take this instructor again.",
+      "author": "Anonymous",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r87",
+      "courseCode": "ENGL 222",
+      "rating": 4,
+      "workloadHours": 11,
+      "comment": "Useful, but the textbook is optional in name only.",
+      "author": "Junior CS",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r88",
+      "courseCode": "ENGL 222",
+      "rating": 1,
+      "workloadHours": 4,
+      "comment": "Clear lectures, heavy homework.",
+      "author": "First-year",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r89",
+      "courseCode": "ENGL 256",
+      "rating": 1,
+      "workloadHours": 10,
+      "comment": "I would take this instructor again.",
+      "author": "Anonymous",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r90",
+      "courseCode": "ENGL 256",
+      "rating": 3,
+      "workloadHours": 11,
+      "comment": "Useful, but the textbook is optional in name only.",
+      "author": "Junior CS",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r91",
+      "courseCode": "ENGL 301",
+      "rating": 2,
+      "workloadHours": 11,
+      "comment": "Useful, but the textbook is optional in name only.",
+      "author": "Junior CS",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r92",
+      "courseCode": "ENGL 301",
+      "rating": 4,
+      "workloadHours": 4,
+      "comment": "Clear lectures, heavy homework.",
+      "author": "First-year",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r93",
+      "courseCode": "ENGL 301",
+      "rating": 1,
+      "workloadHours": 5,
+      "comment": "Office hours are where the class actually clicks.",
+      "author": "Transfer",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r94",
+      "courseCode": "ENGL 348",
+      "rating": 3,
+      "workloadHours": 4,
+      "comment": "Clear lectures, heavy homework.",
+      "author": "First-year",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r95",
+      "courseCode": "ENGL 348",
+      "rating": 5,
+      "workloadHours": 5,
+      "comment": "Office hours are where the class actually clicks.",
+      "author": "Transfer",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r96",
+      "courseCode": "ENGL 348",
+      "rating": 2,
+      "workloadHours": 6,
+      "comment": "Interesting material, uneven pacing.",
+      "author": "Senior",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r97",
+      "courseCode": "ENGL 348",
+      "rating": 4,
+      "workloadHours": 7,
+      "comment": "Projects take longer than the syllabus admits.",
+      "author": "TA-adjacent",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r98",
+      "courseCode": "ENGL 379",
+      "rating": 4,
+      "workloadHours": 5,
+      "comment": "Office hours are where the class actually clicks.",
+      "author": "Transfer",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r99",
+      "courseCode": "ENGL 379",
+      "rating": 1,
+      "workloadHours": 6,
+      "comment": "Interesting material, uneven pacing.",
+      "author": "Senior",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r100",
+      "courseCode": "PHYS 121",
+      "rating": 5,
+      "workloadHours": 6,
+      "comment": "Interesting material, uneven pacing.",
+      "author": "Senior",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r101",
+      "courseCode": "PHYS 121",
+      "rating": 2,
+      "workloadHours": 7,
+      "comment": "Projects take longer than the syllabus admits.",
+      "author": "TA-adjacent",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r102",
+      "courseCode": "PHYS 121",
+      "rating": 4,
+      "workloadHours": 8,
+      "comment": "Fair exams if you do the weekly work.",
+      "author": "Anonymous",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r103",
+      "courseCode": "PHYS 122",
+      "rating": 1,
+      "workloadHours": 7,
+      "comment": "Projects take longer than the syllabus admits.",
+      "author": "TA-adjacent",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r104",
+      "courseCode": "PHYS 122",
+      "rating": 3,
+      "workloadHours": 8,
+      "comment": "Fair exams if you do the weekly work.",
+      "author": "Anonymous",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r105",
+      "courseCode": "PHYS 122",
+      "rating": 5,
+      "workloadHours": 9,
+      "comment": "Discussion section is stronger than lecture.",
+      "author": "Junior CS",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r106",
+      "courseCode": "PHYS 122",
+      "rating": 2,
+      "workloadHours": 10,
+      "comment": "I would take this instructor again.",
+      "author": "First-year",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r107",
+      "courseCode": "PHYS 165",
+      "rating": 2,
+      "workloadHours": 8,
+      "comment": "Fair exams if you do the weekly work.",
+      "author": "Anonymous",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r108",
+      "courseCode": "PHYS 165",
+      "rating": 4,
+      "workloadHours": 9,
+      "comment": "Discussion section is stronger than lecture.",
+      "author": "Junior CS",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r109",
+      "courseCode": "PHYS 270",
+      "rating": 3,
+      "workloadHours": 9,
+      "comment": "Discussion section is stronger than lecture.",
+      "author": "Junior CS",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r110",
+      "courseCode": "PHYS 270",
+      "rating": 5,
+      "workloadHours": 10,
+      "comment": "I would take this instructor again.",
+      "author": "First-year",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r111",
+      "courseCode": "PHYS 270",
+      "rating": 2,
+      "workloadHours": 11,
+      "comment": "Useful, but the textbook is optional in name only.",
+      "author": "Transfer",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r112",
+      "courseCode": "PHYS 373",
+      "rating": 4,
+      "workloadHours": 10,
+      "comment": "I would take this instructor again.",
+      "author": "First-year",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r113",
+      "courseCode": "PHYS 373",
+      "rating": 1,
+      "workloadHours": 11,
+      "comment": "Useful, but the textbook is optional in name only.",
+      "author": "Transfer",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r114",
+      "courseCode": "PHYS 373",
+      "rating": 3,
+      "workloadHours": 4,
+      "comment": "Clear lectures, heavy homework.",
+      "author": "Senior",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r115",
+      "courseCode": "PHYS 373",
+      "rating": 5,
+      "workloadHours": 5,
+      "comment": "Office hours are where the class actually clicks.",
+      "author": "TA-adjacent",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r116",
+      "courseCode": "PHYS 401",
+      "rating": 5,
+      "workloadHours": 11,
+      "comment": "Useful, but the textbook is optional in name only.",
+      "author": "Transfer",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r117",
+      "courseCode": "PHYS 401",
+      "rating": 2,
+      "workloadHours": 4,
+      "comment": "Clear lectures, heavy homework.",
+      "author": "Senior",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r118",
+      "courseCode": "CMSC 250",
+      "rating": 1,
+      "workloadHours": 4,
+      "comment": "Clear lectures, heavy homework.",
+      "author": "Senior",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r119",
+      "courseCode": "CMSC 250",
+      "rating": 3,
+      "workloadHours": 5,
+      "comment": "Office hours are where the class actually clicks.",
+      "author": "TA-adjacent",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r120",
+      "courseCode": "CMSC 250",
+      "rating": 5,
+      "workloadHours": 6,
+      "comment": "Interesting material, uneven pacing.",
+      "author": "Anonymous",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r121",
+      "courseCode": "PHYS 404",
+      "rating": 2,
+      "workloadHours": 5,
+      "comment": "Office hours are where the class actually clicks.",
+      "author": "TA-adjacent",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r122",
+      "courseCode": "PHYS 404",
+      "rating": 4,
+      "workloadHours": 6,
+      "comment": "Interesting material, uneven pacing.",
+      "author": "Anonymous",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r123",
+      "courseCode": "PHYS 404",
+      "rating": 1,
+      "workloadHours": 7,
+      "comment": "Projects take longer than the syllabus admits.",
+      "author": "Junior CS",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "r124",
+      "courseCode": "PHYS 404",
+      "rating": 3,
+      "workloadHours": 8,
+      "comment": "Fair exams if you do the weekly work.",
+      "author": "First-year",
+      "createdAt": "2026-01-20"
+    }
+  ]
+}
