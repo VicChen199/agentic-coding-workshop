@@ -1,0 +1,364 @@
+{
+  "communities": {
+    "0": [
+      "app_api_courses_route",
+      "app_api_courses_route_get",
+      "app_page",
+      "app_page_homepage",
+      "components_catalog",
+      "components_catalog_catalog",
+      "components_catalog_catalogprops",
+      "data_seed",
+      "lib_pagination",
+      "lib_pagination_page_size",
+      "lib_pagination_pagecount",
+      "lib_pagination_paginate",
+      "lib_search",
+      "lib_search_searchcourses",
+      "lib_seed",
+      "lib_seed_data",
+      "lib_seed_getcourses",
+      "lib_seed_getdepartments",
+      "lib_types",
+      "lib_types_course",
+      "lib_types_review",
+      "lib_types_seed",
+      "ref_vitest",
+      "tests_pagination_test",
+      "tests_search_test",
+      "tests_search_test_courses"
+    ],
+    "1": [
+      "app_error",
+      "app_error_error",
+      "app_schedule_page",
+      "app_schedule_page_schedulepage",
+      "components_add_to_schedule",
+      "components_add_to_schedule_addtoschedule",
+      "components_schedule_board",
+      "components_schedule_board_days",
+      "components_schedule_board_scheduleboard",
+      "components_ui_button",
+      "components_ui_button_button",
+      "components_ui_button_buttonprops",
+      "components_ui_button_buttonvariants",
+      "lib_schedule",
+      "lib_schedule_readschedule",
+      "lib_schedule_schedule_storage_key",
+      "lib_schedule_toggleschedule",
+      "lib_schedule_writeschedule",
+      "lib_types_meetingday",
+      "lib_utils_coursepath",
+      "ref_class_variance_authority",
+      "ref_react"
+    ],
+    "2": [
+      "package",
+      "package_name",
+      "package_private",
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_scripts_lint",
+      "package_scripts_start",
+      "package_scripts_test",
+      "package_version",
+      "ref_clsx",
+      "ref_eslint",
+      "ref_eslint_config_next",
+      "ref_lucide_react",
+      "ref_react_dom",
+      "ref_tailwind_merge",
+      "ref_tailwindcss",
+      "ref_tailwindcss_postcss",
+      "ref_types_node",
+      "ref_types_react",
+      "ref_types_react_dom",
+      "ref_typescript"
+    ],
+    "3": [
+      "tsconfig",
+      "tsconfig_compileroptions",
+      "tsconfig_compileroptions_allowjs",
+      "tsconfig_compileroptions_esmoduleinterop",
+      "tsconfig_compileroptions_incremental",
+      "tsconfig_compileroptions_isolatedmodules",
+      "tsconfig_compileroptions_jsx",
+      "tsconfig_compileroptions_lib",
+      "tsconfig_compileroptions_module",
+      "tsconfig_compileroptions_moduleresolution",
+      "tsconfig_compileroptions_noemit",
+      "tsconfig_compileroptions_paths",
+      "tsconfig_compileroptions_plugins",
+      "tsconfig_compileroptions_resolvejsonmodule",
+      "tsconfig_compileroptions_skiplibcheck",
+      "tsconfig_compileroptions_strict",
+      "tsconfig_compileroptions_target",
+      "tsconfig_exclude",
+      "tsconfig_include"
+    ],
+    "4": [
+      "components",
+      "components_aliases",
+      "components_aliases_components",
+      "components_aliases_hooks",
+      "components_aliases_lib",
+      "components_aliases_ui",
+      "components_aliases_utils",
+      "components_iconlibrary",
+      "components_rsc",
+      "components_schema",
+      "components_style",
+      "components_tailwind",
+      "components_tailwind_basecolor",
+      "components_tailwind_config",
+      "components_tailwind_css",
+      "components_tailwind_cssvariables",
+      "components_tailwind_prefix",
+      "components_tsx"
+    ],
+    "5": [
+      "app_api_courses_code_route",
+      "app_api_courses_code_route_courserouteprops",
+      "app_api_courses_code_route_get",
+      "app_courses_code_page",
+      "app_courses_code_page_coursepage",
+      "app_courses_code_page_coursepageprops",
+      "components_course_card_coursecard",
+      "lib_dates",
+      "lib_dates_formatcoursedate",
+      "lib_reviews",
+      "lib_reviews_averagerating",
+      "lib_reviews_averageworkload",
+      "lib_reviews_reviewsforcourse",
+      "lib_seed_getcourse",
+      "lib_seed_getreviews"
+    ],
+    "6": [
+      "app_globals",
+      "app_layout",
+      "app_layout_geistsans",
+      "app_layout_metadata",
+      "app_layout_rootlayout",
+      "app_not_found",
+      "app_not_found_notfound",
+      "components_nav",
+      "components_nav_nav",
+      "next_config",
+      "next_config_nextconfig",
+      "ref_next"
+    ],
+    "7": [
+      "components_course_card",
+      "components_course_card_coursecardprops",
+      "components_ui_card",
+      "components_ui_card_card",
+      "components_ui_card_cardcontent",
+      "components_ui_card_carddescription",
+      "components_ui_card_cardheader",
+      "components_ui_card_cardtitle",
+      "components_ui_input",
+      "components_ui_input_input",
+      "lib_utils",
+      "lib_utils_cn"
+    ],
+    "8": [
+      "package_devdependencies",
+      "package_devdependencies_eslint",
+      "package_devdependencies_eslint_config_next",
+      "package_devdependencies_eslint_eslintrc",
+      "package_devdependencies_tailwindcss",
+      "package_devdependencies_tailwindcss_postcss",
+      "package_devdependencies_types_node",
+      "package_devdependencies_types_react",
+      "package_devdependencies_types_react_dom",
+      "package_devdependencies_typescript",
+      "package_devdependencies_vitest"
+    ],
+    "9": [
+      "eslint_config",
+      "eslint_config_compat",
+      "eslint_config_dirname",
+      "eslint_config_eslintconfig",
+      "eslint_config_filename",
+      "ref_eslint_eslintrc",
+      "ref_path",
+      "ref_url",
+      "vitest_config"
+    ],
+    "10": [
+      "package_dependencies",
+      "package_dependencies_class_variance_authority",
+      "package_dependencies_clsx",
+      "package_dependencies_lucide_react",
+      "package_dependencies_next",
+      "package_dependencies_react",
+      "package_dependencies_react_dom",
+      "package_dependencies_tailwind_merge"
+    ],
+    "11": [
+      "postcss_config",
+      "postcss_config_config"
+    ]
+  },
+  "cohesion": {
+    "0": 0.18461538461538463,
+    "1": 0.17316017316017315,
+    "2": 0.09090909090909091,
+    "3": 0.10526315789473684,
+    "4": 0.1111111111111111,
+    "5": 0.3047619047619048,
+    "6": 0.19696969696969696,
+    "7": 0.3787878787878788,
+    "8": 0.18181818181818182,
+    "9": 0.2222222222222222,
+    "10": 0.25,
+    "11": 1.0
+  },
+  "gods": [
+    {
+      "id": "tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 16
+    },
+    {
+      "id": "lib_utils_cn",
+      "label": "cn()",
+      "degree": 11
+    },
+    {
+      "id": "lib_seed_getcourses",
+      "label": "getCourses()",
+      "degree": 9
+    },
+    {
+      "id": "ref_next",
+      "label": "next",
+      "degree": 8
+    },
+    {
+      "id": "lib_schedule_toggleschedule",
+      "label": "toggleSchedule()",
+      "degree": 7
+    },
+    {
+      "id": "app_courses_code_page_coursepage",
+      "label": "CoursePage()",
+      "degree": 7
+    },
+    {
+      "id": "lib_reviews_reviewsforcourse",
+      "label": "reviewsForCourse()",
+      "degree": 7
+    },
+    {
+      "id": "lib_seed_getreviews",
+      "label": "getReviews()",
+      "degree": 7
+    },
+    {
+      "id": "components_ui_button_button",
+      "label": "Button",
+      "degree": 7
+    },
+    {
+      "id": "ref_react",
+      "label": "react",
+      "degree": 7
+    }
+  ],
+  "surprises": [
+    {
+      "source": "SchedulePage()",
+      "target": "getCourses()",
+      "source_files": [
+        "app/schedule/page.tsx",
+        "lib/seed.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities; peripheral node `SchedulePage()` unexpectedly reaches hub `getCourses()`"
+    },
+    {
+      "source": "HomePage()",
+      "target": "getReviews()",
+      "source_files": [
+        "app/page.tsx",
+        "lib/seed.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "CourseCard()",
+      "target": "coursePath()",
+      "source_files": [
+        "components/course-card.tsx",
+        "lib/utils.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "Button",
+      "target": "cn()",
+      "source_files": [
+        "components/ui/button.tsx",
+        "lib/utils.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "GET()",
+      "target": "pageCount()",
+      "source_files": [
+        "app/api/courses/route.ts",
+        "lib/pagination.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `next` connect `next` to `schedule-board.tsx`, `package.json`, `[code]/page.tsx`, `course-card.tsx`?",
+      "why": "High betweenness centrality (0.180) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `react` connect `schedule-board.tsx` to `catalog.tsx`, `package.json`, `course-card.tsx`?",
+      "why": "High betweenness centrality (0.090) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `devDependencies` connect `devDependencies` to `package.json`?",
+      "why": "High betweenness centrality (0.086) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `CatalogProps`, `ButtonProps`, `CourseRouteProps` to the rest of the system?",
+      "why": "84 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `package.json` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `compilerOptions` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `components.json` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected."
+    }
+  ]
+}
