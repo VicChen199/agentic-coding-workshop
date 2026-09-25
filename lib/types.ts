@@ -11,6 +11,7 @@ export type Course = {
   startTime: string;
   endTime: string;
   startDate: string;
+  prerequisites: string[];
 };
 
 export type Review = {

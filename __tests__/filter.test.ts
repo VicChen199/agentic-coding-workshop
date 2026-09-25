@@ -24,6 +24,7 @@ function course(overrides: Partial<Course> & Pick<Course, "code">): Course {
     startTime: "09:00",
     endTime: "10:15",
     startDate: "2026-01-20",
+    prerequisites: [],
     ...overrides,
   };
 }

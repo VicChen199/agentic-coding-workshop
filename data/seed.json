@@ -13,7 +13,8 @@
       ],
       "startTime": "09:00",
       "endTime": "10:15",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": []
     },
     {
       "code": "CMSC 132",
@@ -28,7 +29,10 @@
       ],
       "startTime": "09:30",
       "endTime": "10:45",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "CMSC 131"
+      ]
     },
     {
       "code": "CMSC 216",
@@ -44,7 +48,10 @@
       ],
       "startTime": "13:00",
       "endTime": "13:50",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "CMSC 132"
+      ]
     },
     {
       "code": "CMSC 220",
@@ -59,7 +66,10 @@
       ],
       "startTime": "10:00",
       "endTime": "11:15",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "CMSC 131"
+      ]
     },
     {
       "code": "CMSC 330",
@@ -74,7 +84,11 @@
       ],
       "startTime": "14:00",
       "endTime": "15:15",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "CMSC 216",
+        "CMSC 250"
+      ]
     },
     {
       "code": "CMSC 351",
@@ -89,7 +103,11 @@
       ],
       "startTime": "15:30",
       "endTime": "16:45",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "CMSC 132",
+        "CMSC 250"
+      ]
     },
     {
       "code": "MATH 140",
@@ -105,7 +123,8 @@
       ],
       "startTime": "08:00",
       "endTime": "08:50",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": []
     },
     {
       "code": "MATH 141",
@@ -121,7 +140,10 @@
       ],
       "startTime": "09:00",
       "endTime": "09:50",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "MATH 140"
+      ]
     },
     {
       "code": "MATH 240",
@@ -136,7 +158,10 @@
       ],
       "startTime": "11:00",
       "endTime": "12:15",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "MATH 140"
+      ]
     },
     {
       "code": "MATH 241",
@@ -151,7 +176,10 @@
       ],
       "startTime": "12:30",
       "endTime": "13:45",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "MATH 141"
+      ]
     },
     {
       "code": "MATH 246",
@@ -166,7 +194,10 @@
       ],
       "startTime": "14:00",
       "endTime": "15:15",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "MATH 141"
+      ]
     },
     {
       "code": "MATH 401",
@@ -181,7 +212,10 @@
       ],
       "startTime": "15:30",
       "endTime": "16:45",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "MATH 240"
+      ]
     },
     {
       "code": "MATH 410",
@@ -196,7 +230,11 @@
       ],
       "startTime": "11:30",
       "endTime": "12:45",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "MATH 141",
+        "MATH 240"
+      ]
     },
     {
       "code": "PSYC 100",
@@ -211,7 +249,8 @@
       ],
       "startTime": "10:00",
       "endTime": "11:15",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": []
     },
     {
       "code": "PSYC 200",
@@ -226,7 +265,10 @@
       ],
       "startTime": "12:00",
       "endTime": "13:15",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "PSYC 100"
+      ]
     },
     {
       "code": "PSYC 221",
@@ -241,7 +283,10 @@
       ],
       "startTime": "13:00",
       "endTime": "14:15",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "PSYC 100"
+      ]
     },
     {
       "code": "PSYC 300",
@@ -256,7 +301,10 @@
       ],
       "startTime": "16:00",
       "endTime": "17:15",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "PSYC 200"
+      ]
     },
     {
       "code": "PSYC 341",
@@ -271,7 +319,10 @@
       ],
       "startTime": "09:00",
       "endTime": "10:15",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "PSYC 100"
+      ]
     },
     {
       "code": "PSYC 353",
@@ -286,7 +337,10 @@
       ],
       "startTime": "10:30",
       "endTime": "11:45",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "PSYC 300"
+      ]
     },
     {
       "code": "PSYC 417",
@@ -300,7 +354,11 @@
       ],
       "startTime": "13:00",
       "endTime": "15:30",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "PSYC 200",
+        "PSYC 300"
+      ]
     },
     {
       "code": "HIST 110",
@@ -315,7 +373,8 @@
       ],
       "startTime": "09:00",
       "endTime": "10:15",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": []
     },
     {
       "code": "HIST 111",
@@ -330,7 +389,8 @@
       ],
       "startTime": "09:00",
       "endTime": "10:15",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": []
     },
     {
       "code": "HIST 142",
@@ -346,7 +406,8 @@
       ],
       "startTime": "11:00",
       "endTime": "11:50",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": []
     },
     {
       "code": "HIST 208",
@@ -361,7 +422,10 @@
       ],
       "startTime": "14:00",
       "endTime": "15:15",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "HIST 110"
+      ]
     },
     {
       "code": "HIST 224",
@@ -376,7 +440,10 @@
       ],
       "startTime": "13:30",
       "endTime": "14:45",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "HIST 111"
+      ]
     },
     {
       "code": "HIST 306",
@@ -391,7 +458,10 @@
       ],
       "startTime": "11:00",
       "endTime": "12:15",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "HIST 208"
+      ]
     },
     {
       "code": "HIST 355",
@@ -405,7 +475,10 @@
       ],
       "startTime": "10:00",
       "endTime": "12:30",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "HIST 142"
+      ]
     },
     {
       "code": "ENGL 101",
@@ -420,7 +493,8 @@
       ],
       "startTime": "08:30",
       "endTime": "09:45",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": []
     },
     {
       "code": "ENGL 201",
@@ -435,7 +509,10 @@
       ],
       "startTime": "08:30",
       "endTime": "09:45",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "ENGL 101"
+      ]
     },
     {
       "code": "ENGL 222",
@@ -450,7 +527,10 @@
       ],
       "startTime": "12:30",
       "endTime": "13:45",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "ENGL 101"
+      ]
     },
     {
       "code": "ENGL 256",
@@ -465,7 +545,10 @@
       ],
       "startTime": "15:00",
       "endTime": "16:15",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "ENGL 101"
+      ]
     },
     {
       "code": "ENGL 301",
@@ -480,7 +563,10 @@
       ],
       "startTime": "15:00",
       "endTime": "16:15",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "ENGL 201"
+      ]
     },
     {
       "code": "ENGL 348",
@@ -495,7 +581,10 @@
       ],
       "startTime": "12:00",
       "endTime": "13:15",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "ENGL 201"
+      ]
     },
     {
       "code": "ENGL 379",
@@ -509,7 +598,10 @@
       ],
       "startTime": "14:00",
       "endTime": "16:30",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "ENGL 201"
+      ]
     },
     {
       "code": "PHYS 121",
@@ -525,7 +617,8 @@
       ],
       "startTime": "10:00",
       "endTime": "10:50",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": []
     },
     {
       "code": "PHYS 122",
@@ -541,7 +634,10 @@
       ],
       "startTime": "11:00",
       "endTime": "11:50",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "PHYS 121"
+      ]
     },
     {
       "code": "PHYS 165",
@@ -556,7 +652,8 @@
       ],
       "startTime": "16:00",
       "endTime": "17:15",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": []
     },
     {
       "code": "PHYS 270",
@@ -570,7 +667,10 @@
       ],
       "startTime": "14:00",
       "endTime": "17:00",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "PHYS 122"
+      ]
     },
     {
       "code": "PHYS 373",
@@ -585,7 +685,11 @@
       ],
       "startTime": "10:30",
       "endTime": "11:45",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "PHYS 270",
+        "MATH 141"
+      ]
     },
     {
       "code": "PHYS 401",
@@ -600,7 +704,10 @@
       ],
       "startTime": "16:30",
       "endTime": "17:45",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "PHYS 270"
+      ]
     },
     {
       "code": "CMSC 250",
@@ -615,7 +722,10 @@
       ],
       "startTime": "10:00",
       "endTime": "11:15",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "CMSC 131"
+      ]
     },
     {
       "code": "PHYS 404",
@@ -630,7 +740,10 @@
       ],
       "startTime": "13:30",
       "endTime": "14:45",
-      "startDate": "2026-01-20"
+      "startDate": "2026-01-20",
+      "prerequisites": [
+        "PHYS 401"
+      ]
     }
   ],
   "reviews": [
