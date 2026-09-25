@@ -1,11 +1,14 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
+import { CatalogFilters } from "@/components/catalog-filters";
 import { CourseCard } from "@/components/course-card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { defaultCourseFilters, filterCourses, type CourseFilters } from "@/lib/filters";
 import { PAGE_SIZE, pageCount, paginate } from "@/lib/pagination";
+import { readSchedule } from "@/lib/schedule";
 import { searchCourses } from "@/lib/search";
 import type { Course, Review } from "@/lib/types";
 
@@ -16,9 +19,20 @@ type CatalogProps = {
 
 export function Catalog({ courses, reviews }: CatalogProps) {
   const [query, setQuery] = useState("");
+  const [filters, setFilters] = useState<CourseFilters>(defaultCourseFilters);
   const [page, setPage] = useState(1);
+  const [pinnedCodes, setPinnedCodes] = useState<string[]>([]);
 
-  const filtered = searchCourses(courses, query);
+  useEffect(() => {
+    setPinnedCodes(readSchedule());
+  }, []);
+
+  const filtered = filterCourses(
+    searchCourses(courses, query),
+    reviews,
+    filters,
+    pinnedCodes,
+  );
   const totalPages = Math.max(pageCount(filtered.length), 1);
   const visible = paginate(filtered, page);
 
@@ -33,7 +47,7 @@ export function Catalog({ courses, reviews }: CatalogProps) {
 
   return (
     <div className="space-y-6">
-      <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+      <div className="flex flex-col gap-3">
         <Input
           value={query}
           onChange={(event) => {
@@ -43,18 +57,26 @@ export function Catalog({ courses, reviews }: CatalogProps) {
           placeholder="Search by course code or title"
           aria-label="Search courses"
         />
+        <CatalogFilters
+          courses={courses}
+          filters={filters}
+          onChange={(next) => {
+            setFilters(next);
+            setPage(1);
+          }}
+        />
       </div>
 
       <div className="flex items-center justify-between text-sm text-muted-foreground">
         <p>{rangeLabel}</p>
         <p>
-          Page {page} of {pageCount(filtered.length)}
+          Page {page} of {totalPages}
         </p>
       </div>
 
       {visible.length === 0 ? (
         <p className="rounded-lg border border-dashed border-border px-4 py-10 text-center text-sm text-muted-foreground">
-          No courses match that search.
+          No courses match.
         </p>
       ) : (
         <div className="grid gap-4 md:grid-cols-2">
